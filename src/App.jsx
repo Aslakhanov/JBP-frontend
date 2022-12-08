@@ -1,16 +1,19 @@
-import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
+// import Header from "./components/header/Header";
+// import Footer from "./components/footer/Footer";
 import styles from "./App.module.scss"
-import PhoneCards from "./components/Phone/phoneCards/PhoneCards";
-import Category from "./components/categories/Category";
+import UploadFile from "./components/file/UploadFile";
+// import PhoneCards from "./components/Phone/phoneCards/PhoneCards";
+// import Category from "./components/categories/Category";
 
 function App() {
   return (
     <div className={styles.App}>
-       <Header/>
+      <UploadFile/>
+       {/* <Header/>
        <Category/>
+       
        <PhoneCards/>
-       <Footer/>
+       <Footer/> */}
     </div>
   );
 }
