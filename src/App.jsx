@@ -4,10 +4,13 @@ import styles from "./App.module.scss"
 import UploadFile from "./components/file/UploadFile";
 // import PhoneCards from "./components/Phone/phoneCards/PhoneCards";
 // import Category from "./components/categories/Category";
+import Cart from "./components/Cart/Cart";
+
 
 function App() {
   return (
     <div className={styles.App}>
+
       <UploadFile/>
        {/* <Header/>
        <Category/>
